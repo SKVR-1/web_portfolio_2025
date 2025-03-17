@@ -384,34 +384,64 @@ img.logo {
     
 }
 
+.progress-bar {
+    background:var(--color-1);
+    width:450px;
+    height:10px;
+    border-radius: 5px;
+}
 
-.skill-list {
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-  }
-  
-  .skill-list li {
-    list-style-type: none; /* Remove default list bullets */
-    position: relative;
-    padding-left: 35px; /* Space for the image */
-    margin-bottom: 10px; /* Add space between list items */
-    font-size: 18px; /* Adjust text size as needed */
-  }
-  
-  .skill-list li::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 20px; /* Adjust size as needed */
-    height: 20px; /* Adjust size as needed */
-    background-image: url('images/s-logo.png'); /* Your image path */
-    background-size: cover;
-    background-position: center;
-  }
+/* .progress-bar div {
+    height: 10px;
+    width:50%;
+    background:#870551;
+    border-radius: 5px;
+} */
 
-  
+.progress-bar div .adobecreative {
+    height: 10px;
+    width:95%;
+    background:var(--color-1);
+    border-radius: 5px;
+}
+
+.adobecreative span {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -20px;
+    margin-right: 50px;
+    color:#333;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 12px;
+}
+
+.animation span {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -20px;
+    margin-right: 80px;
+    color:#333;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 12px;
+}
+
+.pr-lg-3 {
+    padding-right: 10px;
+}
+ 
+
 img.mobile-logo {
     width: 60%;
 
