@@ -437,10 +437,6 @@ img.logo {
     font-size: 12px;
 }
 
-.pr-lg-3 {
-    padding-right: 10px;
-}
- 
 
 img.mobile-logo {
     width: 60%;
@@ -714,6 +710,12 @@ textarea {
 .lg-12 {
     flex  : none;
     width : 100%;
+}
+
+.xl-6 {
+    flex  : none;
+    width : 50%;
+
 }
 
 .block-lg-one-eight>.column {
