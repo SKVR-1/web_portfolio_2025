@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html class="no-js ss-preload" lang="en">
+<head>
+
+    <!--- head
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>SKVR: Work</title>
+    <meta name="description" content="SKVR, Online Portolio">
+    <meta name="author" content="SKVR">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+<body id="top">
+
+
+    <!-- # preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+        </div>
+    </div>
+
+
+  <!-- # page wrap
+    ================================================== -->
+    <div class="s-pagewrap">
+
+        <div class="circles">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+      </div>
+
+
+    <!-- ## site header 
+        ================================================== -->
+        <header class="s-header">
+            <div class="header-mobile">
+                <span class="mobile-home-link"><a href="index.html"><img src="images/s-logo.png" class="mobile-logo"></a></span>
+                <a class="mobile-menu-toggle" href="#0"><span>Menu</span></a>
+            </div>
+
+
+            <div class="row wide main-nav-wrap">
+                <nav class="column lg-12 main-nav">
+                    <ul>
+                        <li><a href="index.html" class="home-link"><img src="images/s-logo.png" class="logo"></a></li>
+                        <li><a href="#intro" class="smoothscroll">Intro</a></li>
+                        <li><a href="#about" class="smoothscroll">About</a></li>
+                        <li class="current"><a href="#works" class="smoothscroll">Works</a></li>
+                        <li><a href="#contact" class="smoothscroll">Say Hello</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+        </header> <!-- end s-header -->
+
+        <!-- ## main content
+        ==================================================- -->
+         <main class="s-content">
+            <section class="gallery-sec sec-pad">
+                <div class="container">
+                  <div id="gf-BtnContainer" class="filter">
+                    <button class="gf-btn gf-btn-active" onclick="filterSelection('branding')">branding</button>
+                    <button class="gf-btn" onclick="filterSelection('hollywood')">Marketing</button>
+                    <button class="gf-btn" onclick="filterSelection('hollywood')">Packaging</button>
+                    <button class="gf-btn" onclick="filterSelection('tv')">Digital</button>
+                  </div>
+              
+                  <!-- Gallery Grid Images -->
+                  <div class="gallery sets">
+              
+                    <div class="gf-column branding">
+                      <img src="https://iili.io/y7W4t4.md.webp" />
+                    </div>
+              
+                    <div class="gf-column branding">
+                      <img src="https://i.redd.it/a90376enwvg91.jpg" />
+                    </div>
+              
+                    <div class="gf-column branding">
+                      <img src="https://iili.io/y7waOg.md.jpg" />
+                    </div>
+              
+                    <div class="gf-column branding">
+                      <img src="https://iili.io/y7WrNf.webp" />
+                    </div>
+              
+                    <div class="gf-column branding">
+                      <img src="https://external-preview.redd.it/FQ0Pct5yXWqEguF_qT1fC7NQr92aqTEiEGIvG81e3rI.jpg?auto=webp&s=c34478373a32fc761a46fb9aaad6ceb5ce2a2cea" />
+                    </div>
+              
+                    <div class="gf-column hollywood">
+                      <img src="https://i.redd.it/wh6hbexev2v91.jpg" />
+                    </div>
+              
+                    <div class="gf-column hollywood">
+                      <img src="https://i.redd.it/mded53nmw2w91.jpg" />
+                    </div>
+              
+                    <div class="gf-column hollywood">
+                      <img src="https://i.redd.it/4b6s83hss9p91.jpg" />
+                    </div>
+              
+                    <div class="gf-column tv">
+                      <img src="https://i.redd.it/2s7w09k01ol91.jpg" />
+                    </div>
+              
+                    <div class="gf-column tv">
+                      <img src="https://i.redd.it/2s7w09k01ol91.jpg" />
+                    </div>
+                  </div>
+              
+                </div>
+              </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+
+filterSelection("branding");
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("gf-column");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Highlight active button and current button
+var btnContainer = document.getElementById("gf-BtnContainer");
+var btns = btnContainer.getElementsByClassName("gf-btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function () {
+    var current = document.getElementsByClassName("gf-btn-active");
+    current[0].className = current[0].className.replace(" gf-btn-active", "");
+    this.className += " gf-btn-active";
+  });
+}
+
+// Popup Gallery Script
+
+let imgs = document.querySelectorAll("img");
+let count;
+imgs.forEach((img, index) => {
+  img.addEventListener("click", function (e) {
+    if (e.target == this) {
+      count = index;
+      let openDiv = document.createElement("div");
+      let imgPreview = document.createElement("img");
+      let butonsSection = document.createElement("div");
+      butonsSection.classList.add("butonsSection");
+      let closeBtn = document.createElement("button");
+
+      closeBtn.classList.add("closeBtn");
+      closeBtn.innerText = "Close";
+      closeBtn.addEventListener("click", function () {
+        openDiv.remove();
+      });
+
+      imgPreview.classList.add("imgPreview");
+      imgPreview.src = this.src;
+
+      //   butonsSection.append(prevButton, nextBtn);
+      openDiv.append(imgPreview, butonsSection, closeBtn);
+
+      openDiv.classList.add("openDiv");
+
+      document.querySelector("body").append(openDiv);
+    }
+  });
+});
+
+
+
+</script>
+
+
+            
+</body>
+</html>
