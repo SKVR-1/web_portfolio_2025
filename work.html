@@ -38,19 +38,6 @@
     </div>
 
 
-  <!-- # page wrap
-    ================================================== -->
-    <div class="s-pagewrap">
-
-        <div class="circles">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-      </div>
-
-
     <!-- ## site header 
         ================================================== -->
         <header class="s-header">
@@ -64,10 +51,10 @@
                 <nav class="column lg-12 main-nav">
                     <ul>
                         <li><a href="index.html" class="home-link"><img src="images/s-logo.png" class="logo"></a></li>
-                        <li><a href="#intro" class="smoothscroll">Intro</a></li>
-                        <li><a href="#about" class="smoothscroll">About</a></li>
-                        <li class="current"><a href="#works" class="smoothscroll">Works</a></li>
-                        <li><a href="#contact" class="smoothscroll">Say Hello</a></li>
+                        <li><a href="index.html#intro" class="smoothscroll">Intro</a></li>
+                        <li><a href="index.html#about" class="smoothscroll">About</a></li>
+                        <li class="current"><a href="#work" class="smoothscroll">Work</a></li>
+                        <li><a href="index.html#contact" class="smoothscroll">Say Hello</a></li>
                     </ul>
                 </nav>
             </div>
@@ -76,17 +63,25 @@
 
         <!-- ## main content
         ==================================================- -->
-         <main class="s-content">
+        <main class="s-content">
+
+
+        <!-- ## main content
+        ==================================================- -->
+
+         <main class="portfolio-section">
             <section class="gallery-sec sec-pad">
                 <div class="container">
                   <div id="gf-BtnContainer" class="filter">
                     <button class="gf-btn gf-btn-active" onclick="filterSelection('branding')">branding</button>
-                    <button class="gf-btn" onclick="filterSelection('hollywood')">Marketing</button>
-                    <button class="gf-btn" onclick="filterSelection('hollywood')">Packaging</button>
-                    <button class="gf-btn" onclick="filterSelection('tv')">Digital</button>
+                    <button class="gf-btn" onclick="filterSelection('marketing')">Marketing</button>
+                    <button class="gf-btn" onclick="filterSelection('marketing')">Print</button>
+                    <button class="gf-btn" onclick="filterSelection('packaging')">Packaging</button>
+                    <button class="gf-btn" onclick="filterSelection('animation')">Animation</button>
+                    <button class="gf-btn" onclick="filterSelection('digital')">Digital</button>
                   </div>
               
-                  <!-- Gallery Grid Images -->
+                  <!-- branding -->
                   <div class="gallery sets">
               
                     <div class="gf-column branding">
@@ -104,54 +99,151 @@
                     <div class="gf-column branding">
                       <img src="https://iili.io/y7WrNf.webp" />
                     </div>
+                    <!-- end branding -->
               
-                    <div class="gf-column branding">
+
+                    <!-- marketing -->
+                    <div class="gf-column marketing">
                       <img src="https://external-preview.redd.it/FQ0Pct5yXWqEguF_qT1fC7NQr92aqTEiEGIvG81e3rI.jpg?auto=webp&s=c34478373a32fc761a46fb9aaad6ceb5ce2a2cea" />
                     </div>
               
-                    <div class="gf-column hollywood">
+                    <div class="gf-column marketing">
                       <img src="https://i.redd.it/wh6hbexev2v91.jpg" />
                     </div>
               
-                    <div class="gf-column hollywood">
+                    <div class="gf-column marketing">
                       <img src="https://i.redd.it/mded53nmw2w91.jpg" />
                     </div>
               
-                    <div class="gf-column hollywood">
+                    <div class="gf-column marketing">
                       <img src="https://i.redd.it/4b6s83hss9p91.jpg" />
                     </div>
-              
-                    <div class="gf-column tv">
+                    <!-- end marketing -->
+
+
+                    <!-- packaging -->
+                    <div class="gf-column packaging">
                       <img src="https://i.redd.it/2s7w09k01ol91.jpg" />
                     </div>
               
-                    <div class="gf-column tv">
+                    <div class="gf-column packaging">
                       <img src="https://i.redd.it/2s7w09k01ol91.jpg" />
                     </div>
+
+                    <div class="gf-column packaging">
+                      <img src="https://i.redd.it/2s7w09k01ol91.jpg" />
+                    </div>
+
+                    <div class="gf-column packaging">
+                      <img src="https://i.redd.it/2s7w09k01ol91.jpg" />
+                    </div>
+                    <!-- end packaging -->
+
+                    
+                    <!-- animation -->
+                    <div class="gf-column animation">
+                      <img src="https://i.redd.it/2s7w09k01ol91.jpg" />
+                    </div>
+              
+                    <div class="gf-column animation">
+                      <img src="https://i.redd.it/2s7w09k01ol91.jpg" />
+                    </div>
+
+                    <div class="gf-column animation">
+                      <img src="https://i.redd.it/2s7w09k01ol91.jpg" />
+                    </div>
+
+                    <div class="gf-column animation">
+                      <img src="https://i.redd.it/2s7w09k01ol91.jpg" />
+                    </div>
+                    <!-- end animation -->
+
+                    
+                    <!-- digital -->
+                    <div class="gf-column digital">
+                      <img src="images/nfocus.jpg" />
+                      <center><small>www.nfocus.co.uk</small></center>
+                    </div>
+              
+                    <div class="gf-column digital">
+                      <img src="images/igold.jpg" />
+                      <center><small>www.nfocus.co.uk</small></center>
+                    </div>
+
+                    <div class="gf-column digital">
+                      <img src="images/avivo.jpg" />
+                      <center><small>www.nfocus.co.uk</small></center>
+                    </div>
+
+                    <div class="gf-column digital">
+                      <img src="images/nfocus.jpg" />
+                      <center><small>www.nfocus.co.uk</small></center>
+                    </div>
+                    <!-- end digital -->
+
+
                   </div>
-              
                 </div>
-              </section>
+           </section>
 
 
 
 
 
+           <!-- ### contact
+            ================================================== -->
+            <section id="contact" class="s-contact target-section">
+
+                <div class="row contact-top">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle">
+                            Get In Touch
+                        </h2>
+
+                        <p class="h1">
+                            I love to hear from you.
+                        </p>
+                    </div>
+                </div> <!-- end contact-top -->
+
+                <div class="row contact-bottom">
+                    <div class="column lg-3 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Reach me at</h3>
+                        <p class="contact-links">
+                            <a href="mailto:sayhello@skvr.com" class="mailtoui">sayhello@skvr.com</a> <br>
+                            <a href="tel:+1975432345">+44 (0) 7974142307</a>
+                        </p>
+                    </div>
+                    <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
+                        <h3 class="text-pretitle">Social</h3>
+                        <ul class="contact-social">
+                            <li><a href="#0">Linkedin</a></li>
+                        </ul>
+                    </div>
+                    <div class="column lg-4 md-12 contact-block">
+                        <a href="mailto:sayhello@skvr.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
+                    </div>
+                </div> <!-- end contact-bottom -->
+
+            </section> <!-- end contact -->
+
+        </main> <!-- end s-content -->
+
+        <!-- ## footer
+        ================================================== -->
 
 
 
 
-
-
-
-
-
+    <!-- Java Script
+================================================== -->
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
 
 
 
 
 <script>
-
 filterSelection("branding");
 function filterSelection(c) {
   var x, i;
@@ -230,11 +322,9 @@ imgs.forEach((img, index) => {
   });
 });
 
-
-
 </script>
 
-
             
+   
 </body>
 </html>
