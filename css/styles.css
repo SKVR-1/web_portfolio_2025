@@ -398,12 +398,13 @@ img.logo {
     border-radius: 5px;
 } */
 
-.progress-bar div .adobecreative {
+.progress-bar div  {
     height: 10px;
     width:95%;
     background:var(--color-1);
     border-radius: 5px;
 }
+
 
 .adobecreative span {
     height: 40px;
@@ -428,6 +429,168 @@ img.logo {
     background: #fff;
     float: right;
     margin-top: -20px;
+    margin-right: 70px;
+    color:#333;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 12px;
+}
+
+
+.html span {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -20px;
+    margin-right: 50px;
+    color:#333;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 12px;
+}
+
+.css span {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -20px;
+    margin-right: 50px;
+    color:#333;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 12px;
+}
+
+
+.bootstrap span {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -20px;
+    margin-right: 50px;
+    color:#333;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 12px;
+}
+
+.wordpress span {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -20px;
+    margin-right: 50px;
+    color:#333;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 12px;
+}
+
+.magento span {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -20px;
+    margin-right: 60px;
+    color:#333;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 12px;
+}
+
+.shopify span {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -20px;
+    margin-right: 50px;
+    color:#333;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 12px;
+}
+
+.tailwind span {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -20px;
+    margin-right: 50px;
+    color:#333;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 12px;
+}
+
+.php span {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -20px;
+    margin-right: 20px;
+    color:#333;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 12px;
+}
+
+.js span {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -20px;
+    margin-right: 60px;
+    color:#333;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    font-size: 12px;
+}
+
+.seo span {
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    background: #fff;
+    float: right;
+    margin-top: -20px;
     margin-right: 80px;
     color:#333;
     display:flex;
@@ -436,6 +599,7 @@ img.logo {
     padding: 25px;
     font-size: 12px;
 }
+
 
 
 img.mobile-logo {
@@ -4345,6 +4509,32 @@ img.u-pull-left {
 }
 
 /* ------------------------------------------------------------------- 
+ * ## margins
+ * ------------------------------------------------------------------- */
+
+
+ .mt-4 {
+    margin-top:40px;
+        
+}
+
+.mt-5 {
+    margin-top:50px;
+        
+}
+
+.mb-4 {
+    margin-bottom:40px;
+        
+}
+
+.mb-5 {
+    margin-bottom:50px;
+        
+}
+
+
+/* ------------------------------------------------------------------- 
  * ## copyright
  * ------------------------------------------------------------------- */
 .ss-copyright {
@@ -4439,3 +4629,60 @@ img.u-pull-left {
 }
 
 
+/* ------------------------------------------------------------------- 
+ * slide:
+ * 
+ * ------------------------------------------------------------------- */
+
+
+ .slider {
+    height: 123px;
+    width:  100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.slide-track {
+    display: flex;
+    width: calc(150px * 12); /* Total width based on duplicated logos */
+    animation: scroll 30s linear infinite;
+}
+
+.slide {
+    width: 50%; /* Ensure each logo has a fixed width */
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-150px * 6)); /* Half the total width to ensure seamless loop */
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .slide-track {
+        width: calc(80px * 12); /* Adjust width for smaller screens */
+    }
+
+    .slide {
+        width: 80px;
+    }
+
+    @keyframes scroll {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(calc(-80px * 6));
+        }
+    }
+}
