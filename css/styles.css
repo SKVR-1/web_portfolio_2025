@@ -552,14 +552,14 @@ img.logo {
     font-size: 12px;
 }
 
-.php span {
+.phplaravel span {
     height: 40px;
     width:40px;
     border-radius: 50%;
     background: #fff;
     float: right;
     margin-top: -20px;
-    margin-right: 20px;
+    margin-right: 190px;
     color:#333;
     display:flex;
     align-items: center;
@@ -568,14 +568,14 @@ img.logo {
     font-size: 12px;
 }
 
-.js span {
+.javascript span {
     height: 40px;
     width:40px;
     border-radius: 50%;
     background: #fff;
     float: right;
     margin-top: -20px;
-    margin-right: 60px;
+    margin-right: 260px;
     color:#333;
     display:flex;
     align-items: center;
@@ -3407,7 +3407,6 @@ img.u-pull-left {
   .gf-btn {
     margin: 5px 4px 4px 0;
     display: inline-block;
-    background: #fff;
     font-weight: 500;
     text-decoration: none;
     transition: all 0.2s;
@@ -3416,8 +3415,6 @@ img.u-pull-left {
   }
   .gf-btn:hover,
   .gf-btn-active {
-    background-color: var(--color-1);
-    color: #fff;
     -webkit-transform: translateY(3px);
     -ms-transform: translateY(3px);
     transform: translateY(3px);
@@ -3433,8 +3430,8 @@ img.u-pull-left {
     /* gap: 14px; */
   }
   .gallery img {
-    width: 200px;
-    height: 260px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
     /* background: center center/cover no-repeat #ddd; */
     transition: 0.3s ease-in-out;
