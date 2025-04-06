@@ -3426,19 +3426,21 @@ img.u-pull-left {
     width: fit-content;
     max-width: 1320px;
     flex-wrap: wrap;
-    margin: 25px auto;
-    /* gap: 14px; */
+    margin:auto;
   }
+
+
   .gallery img {
-    width: 400px;
-    height: 400px;
+    /* width: 400px;
+    height: 400px; */
     object-fit: cover;
     /* background: center center/cover no-repeat #ddd; */
     transition: 0.3s ease-in-out;
     border-radius: 12px;
     overflow: hidden;
-    margin: 10px 10px;
+    margin:auto;
   }
+  
   .gallery img:hover::after {
     content: "E";
   }
