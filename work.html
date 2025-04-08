@@ -21,6 +21,19 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
 
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LTGL087YYN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LTGL087YYN');
+</script>
+   
+
 </head>
 
 <body id="top">
@@ -33,11 +46,6 @@
         </div>
     </div>
 
-    
-
-    <ul class="intro-social">
-      <li><a href="#0">Linkedin</a></li>
-  </ul>
 
 
     <!-- # page wrap
@@ -69,7 +77,7 @@
                         <li><a href="/" class="home-link"><img src="images/s-logo.png" class="logo"></a></li>
                         <li><a href="index.html#about">About</a></li>
                         <li class="current"><a href="#work" class="smoothscroll">Work</a></li>
-                        <li><a href="index.html#contact" class="smoothscroll">Say Hello</a></li>
+                        <li><a href="#contact" class="smoothscroll">Say Hello</a></li>
                     </ul>
                 </nav>
             </div>
@@ -94,10 +102,10 @@
                   <div id="gf-BtnContainer" class="filter mb-4">
                     <button class="gf-btn gf-btn-active" onclick="filterSelection('branding')">branding</button>
                     <button class="gf-btn" onclick="filterSelection('marketing')">Marketing</button>
-                    <button class="gf-btn" onclick="filterSelection('print')">Print</button>
+                    <button class="gf-btn" onclick="filterSelection('print')">Design & Print</button>
                     <button class="gf-btn" onclick="filterSelection('packaging')">Packaging</button>
-                    <button class="gf-btn" onclick="filterSelection('other')">other</button>
                     <button class="gf-btn" onclick="filterSelection('digital')">Digital</button>
+                    <button class="gf-btn" onclick="filterSelection('other')">other</button>
                   </div>
               
                   <!-- branding -->
@@ -151,9 +159,18 @@
 
                  <!-- print -->
                 <div class="gallery print">
+                  <div class="gf-column print">
+                    <img src="images/tgb-brand-guidelines.jpg" />
+                  </div>
+
                     <div class="gf-column print">
                       <img src="images/gxc-print.jpg" />
                     </div>
+
+                    <div class="gf-column print">
+                      <img src="images/tgb-print.jpg" />
+                    </div>
+
                   </div>
                     <!-- end print -->
 
@@ -170,12 +187,18 @@
                     <div class="gf-column marketing mt-4 mr-4">
                       <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fthegoldbullioncompany%2Fvideos%2F639528212332263%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" data-width="500" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
                     </div>
+                    
+                    <div class="gf-column marketing mt-4 mr-4">
+                      <img src="images/GXC-trustpilot-animation.gif" />
+                    </div>
             
                     <div class="gf-column marketing mt-4 mr-4">
-                      <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fthegoldbullioncompany%2Fvideos%2F639528212332263%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" data-width="500" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+                      <iframe src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fthegoldbullioncompany%2Fvideos%2F1857085771771185%2F&show_text=false&width=267&t=0" width="267" height="476" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
                     </div>
+            
                   </div>
                     <!-- end marketing -->
+
 
                     <!-- packaging -->
                  <div class="gallery sets">
@@ -216,7 +239,7 @@
                       <img src="images/tcs-web.jpg" />
                     </div>
                   </div>
-                </section>
+             
                 <!-- end digital -->
 
                 <!-- other -->
@@ -226,7 +249,7 @@
                   </div>
                 </div>
                   <!-- end other -->
-
+                </section>
            <!-- ### contact
             ================================================== -->
             <section id="contact" class="s-contact target-section">
@@ -248,7 +271,7 @@
                         <h3 class="text-pretitle">Reach me at</h3>
                         <p class="contact-links">
                             <a href="mailto:sud75@hotmail.com" class="mailtoui">sud75@hotmail.com</a> <br>
-                            <a href="tel:+447974142307">+44 (0) 7974142307</a>
+                            <a href="tel:07974142307">07974142307</a>
                         </p>
                     </div>
                     <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
@@ -357,7 +380,6 @@ imgs.forEach((img, index) => {
 
 </script>
 
-            
-   
+        
 </body>
 </html>

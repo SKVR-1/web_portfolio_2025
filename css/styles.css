@@ -3529,7 +3529,7 @@ img.u-pull-left {
   @media (max-width: 767px) {
     .gallery img {
       margin: 8px 8px;
-      width: 175px;
+      width: 100%;
     }
   
     .closeBtn {
@@ -3543,10 +3543,7 @@ img.u-pull-left {
   }
   
   @media (max-width: 575px) {
-    .gallery img {
-      margin: 8px 6px;
-      width: 155px;
-    }
+ 
   
     .gf-btn {
       font-size: 15px;
@@ -4512,7 +4509,12 @@ img.u-pull-left {
  * ------------------------------------------------------------------- */
 
 
- .mt-4 {
+ .mt-0 {
+    margin-top:0px;
+        
+}
+
+.mt-4 {
     margin-top:40px;
         
 }
@@ -4672,12 +4674,17 @@ img.u-pull-left {
 }
 
 @media screen and (max-width: 768px) {
+
+    .progress-bar {
+        width: 400px;
+    }
+
     .slide-track {
         width: calc(80px * 12); /* Adjust width for smaller screens */
     }
 
     .slide {
-        width: 80px;
+        width: 100%;
     }
 
     @keyframes scroll {
