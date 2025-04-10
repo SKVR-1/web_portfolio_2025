@@ -42,8 +42,8 @@ This portfolio highlights work in:
 
 - 📧 Email: sud75@hotmail.com  
 - 📞 Phone: 07974142307  
-- 🔗 LinkedIn: [uk.linkedin.com](https://uk.linkedin.com)  
-- 🐙 GitHub: [github.com](https://github.com)
+- 🔗 LinkedIn: https://uk.linkedin.com/in/sudhir-lal-31b36b30
+- 🐙 GitHub: github.com](https://github.com
 
 ---
 
